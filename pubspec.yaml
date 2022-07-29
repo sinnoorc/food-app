@@ -1,0 +1,30 @@
+name: food_app
+version: 1.0.0+1
+publish_to: none
+description: Food App.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  lottie: ^1.4.0
+  flutter_svg: ^1.1.1+1
+  modal_bottom_sheet: ^2.1.0
+  dio: ^4.0.6
+  animate_do: ^2.1.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/animation/
+    - assets/image/
+  uses-material-design: true
+
