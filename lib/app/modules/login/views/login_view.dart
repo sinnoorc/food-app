@@ -2,10 +2,10 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:food_app/app/widgets/custom_text_field.dart';
 import 'package:get/get.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 
+import '../../../widgets/custom_text_field.dart';
 import '../../register/views/register_view.dart';
 import '../controllers/login_controller.dart';
 
@@ -48,7 +48,6 @@ class LoginView extends GetView<LoginController> {
                       FadeInUp(
                         child: Container(
                           padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                          // height: MediaQuery.of(context).size.height * 0.55,
                           width: double.infinity,
                           decoration: BoxDecoration(
                             color: Colors.grey.shade200,

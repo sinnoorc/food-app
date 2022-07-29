@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
         getPages: AppPages.routes,
         theme: AppTheme.instance.theme,
         themeMode: ThemeMode.light,
-        // defaultTransition: Transition.rightToLeftWithFade,
         debugShowCheckedModeBanner: false,
       ),
     );
